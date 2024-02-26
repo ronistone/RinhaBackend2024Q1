@@ -4,20 +4,20 @@ Minha implementação para a [rinha-de-backend-2024-q1](https://github.com/zanfr
 
 ### Stack
 
-- Language: Golang 1.22  
-- Balance: Nginx  
-- Web Framework: [Echo v4](https://github.com/labstack/echo)  
-- Database: Postgres  
-- Golang Database lib: [dbr v2](https://github.com/gocraft/dbr)  
+- Language: Java 21
+- Balance: Nginx
+- Framework: Spring Boot
+- Database: Postgres
 
 ### Requisitos mínimos:
 - Docker
-- Go v1.22
+- Java 21
+- Maven
 
 ### Rodando a aplicação
 
 ```bash
-go run main.go
+mvn spring-boot:run
 ```
 
 ### Execução do gatling do evento
